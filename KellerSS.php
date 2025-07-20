@@ -610,7 +610,6 @@ escolheropcoes:
 
 
                 echo $bold . $azul . "[+] Checando bypass de Wallhack/Holograma...\n";
-                echo $bold . $vermelho . "[!] APLICATIVO DELLETADO POS PARTIDA APLIQUE O W.O\n\n";
 
                 $pastasParaVerificar = [
                     "/sdcard/Android/data/com.dts.freefireth/files/contentcache/Optional/android/gameassetbundles",
@@ -622,8 +621,7 @@ escolheropcoes:
                     "/sdcard/Android/data",
                     "/sdcard/Android"
                 ];
-               
-               
+
 
                 $pastasParaVerificar2 = [
                     "/sdcard/Android/data/com.dts.freefireth/files/contentcache/Optional/android/gameassetbundles",
@@ -634,7 +632,8 @@ escolheropcoes:
                     "/sdcard/Android/data/com.dts.freefireth"
                 ];
 
-                echo $bold . $vermelho . "[!] Aplicativo Delerado Pos partida aplique o w.o"
+                
+
                 foreach ($pastasParaVerificar as $pasta) {
                     $comandoStat = 'adb shell stat ' . escapeshellarg($pasta) . ' 2>&1';
                     $resultadoStat = shell_exec($comandoStat);
@@ -1735,7 +1734,7 @@ escolheropcoes:
                         if ($bypassDetectado) {
                             echo $bold . $vermelho . "[!] Modificando pastas após o fim da partida, aplique o W.O!\n\n";
                         } else {
-                            echo $bold . $verde . "[+] Nenhum bypass de holograma detectado.\n\n";
+                            echo $bold . $vermelho . "[+] Aplicativo Deletado Pos Partida Aplique O W.O.\n\n";
                         }
                     } else {
                         echo $bold . $amarelo . "[!] Não foi possível obter a data do último .bin.\n";
