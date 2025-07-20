@@ -438,4 +438,4 @@ escolheropcoes:
                         
                 
                         // Motivo 8 - Access do .json diferente dos tempos do .bin
-                        $jsonPath = preg_replace('/\.bin$
+                  
