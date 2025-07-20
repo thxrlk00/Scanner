@@ -25,18 +25,11 @@ function keller_banner(){
   echo "\e[37m
            THX Android\e[36m Fucking Cheaters\e[91m\e[37m discord.gg/allianceoficial\e[91m
             
-                            )       (     (          (     
-                        ( /(       )\ )  )\ )       )\ )  
-                        )\()) (   (()/( (()/(  (   (()/(  
-                        |((_)\  )\   /(_)) /(_)) )\   /(_)) 
-                        |_ ((_)((_) (_))  (_))  ((_) (_))   
-                        | |/ / | __|| |   | |   | __|| _ \  
-                        ' <  | _| | |__ | |__ | _| |   /  
-                        _|\_\ |___||____||____||___||_|_\  
+                            
 
 
 
-                    \e[36m{C} Coded By - KellerSS | Credits for Sheik                                   
+                    \e[36m{C} Scanner By SS THX SS APELA                                  
 \e[32m
   \n";
 }
@@ -69,7 +62,7 @@ menuscanner:
 
     echo $bold . $azul . "
       +--------------------------------------------------------------+
-      +                       KellerSS Menu                          +
+      +                       THX Scanner                          +
       +--------------------------------------------------------------+
 
       \n\n";
