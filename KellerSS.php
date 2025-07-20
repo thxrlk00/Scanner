@@ -23,7 +23,7 @@ $ciano = "\e[36m";
 $bold   = "\e[1m";
 function keller_banner(){
   echo "\e[37m
-           KellerSS Android\e[36m Fucking Cheaters\e[91m\e[37m discord.gg/allianceoficial\e[91m
+           THX Android\e[36m Fucking Cheaters\e[91m\e[37m discord.gg/allianceoficial\e[91m
             
                             )       (     (          (     
                         ( /(       )\ )  )\ )       )\ )  
